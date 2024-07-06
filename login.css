@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.container {
+    position: relative;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 400px;
+    border-radius: 12px;
+}
+
+.login {
+    background-color: #7FFFD4;
+    text-align: center;
+    padding: 12px;
+    margin: 20px;
+    height: 70px;
+}
+
+form {
+    margin-left: 30px;
+}
+
+.row {
+    padding: 5px;
+}
+
+input {
+    width: 300px;
+    padding: 3px;
+    border-color: #7FFFD4;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.row3 {
+    width: 300px;
+    padding: 5px;
+    border-radius: 7px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+i {
+    color: #7FFFD4;
+}
+
+button {
+    background: #7FFFD4;
+}
+
+a {
+    text-decoration: none;
+}

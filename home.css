@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('home2.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 35px,0;
+}
+
+.navebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    padding:25px;
+    
+
+
+}
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin:0, 40px;
+    position: relative;
+    
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 20px;
+
+}
+h1{
+    color: red;
+    text-transform: uppercase;
+}
+.navebar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background: #009688;
+    left: 0;
+    bottom: -10px; /* corrected typo */
+    transition: 0.5s;
+}
+
+.navebar ul li:hover::after {
+    width: 80%;
+}
+.content{
+    transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+.content h2{
+    font-size: 70px;
+    color: #fff;
+    
+
+}
+.content p{
+    margin: 0 20px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #fff;
+}
+button{
+    padding: 10px;
+    border-radius: 25px;
+    margin: 20px 10px;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    border: 2px solid wheat;
+    font-size: 22px;
+    background: transparent;
+    cursor: pointer;
+    color: red;
+    font-weight: 100;
+}

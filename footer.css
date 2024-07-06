@@ -1,0 +1,26 @@
+.g_parent{
+    height: 300px;
+    width: 600px;
+    border-color: red;
+    background-color: black;
+    position: relative;
+    
+
+}
+.parent{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    
+    
+}
+.child_parent{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    left: 200px;
+
+}
+
+    
